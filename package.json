@@ -1,0 +1,20 @@
+{
+  "name": "course-store-order-sms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/order_update_service.ts",
+    "demo": "tsx scripts/demo_order.ts",
+    "test": "tsx --test test/order_alerts.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
