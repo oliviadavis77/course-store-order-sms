@@ -66,3 +66,7 @@ The example above is intentionally minimal. A few things to wire up for real use
 **Course Store Order SMS: SMS (required for real sending)**
 - **Course Store Order SMS:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
 - **Course Store Order SMS:** Sandbox/test numbers may work without it; production traffic will not.
+
+## Further reading
+
+- [Password Reset Email API: Node.js Custom Domain Bounce Suppression](docs/password-reset-email-api-node-js-custom-domain-bo-1r39cy.md)
